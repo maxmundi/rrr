@@ -64,10 +64,21 @@ header a {
     text-align: center;
     font-size: 16px;
     margin: 90px auto 0 auto;
-    width: 260px;
+    width: 315px;
     background-color: rgba(20, 20, 20, 0.8);
     padding: 10px;
     border-radius: 30px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.check-mark {
+    height: 40px;
+    margin: auto 5px auto 0px;
 }
 
 #call-now {
@@ -115,12 +126,17 @@ header a {
     height: auto;
     margin: 0px auto auto auto;
     border-radius: 30px;
-    padding: 20px;
+    padding: 4px 10px 6px 10px;
     text-align: center;
 }
 
 #steps div p {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 15px 0px;
+}
+
+.service-img {
+    width: 100%;
+    border-radius: 20px;
 }
 
 #footer {
