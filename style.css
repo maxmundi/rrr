@@ -1,3 +1,133 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 body {
     font-family: 'aktiv-grotesk-ex', sans-serif;
     margin: 0;
@@ -34,13 +164,13 @@ header div {
 }
 
 header div h1 {
-    margin: 10px 0 5px 0px;
+    margin: 0px 0px 5px 0px;
     text-align: center;
     margin-left: -30px;
 }
 
 header div p {
-    margin: 0px;
+    margin: 8px 0px 0px 0px;
     text-align: center;
     margin-left: -30px;
 }
@@ -63,17 +193,18 @@ header a {
     color: #f4f4f4;
     text-align: center;
     font-size: 16px;
-    margin: 90px auto 0 auto;
+    margin: 100px auto 0 auto;
     width: 315px;
     background-color: rgba(20, 20, 20, 0.8);
-    padding: 10px;
+    padding: 15px;
     border-radius: 30px;
 }
 
 .service-list {
     display: flex;
     justify-content: center;
-    margin-right: 30px;
+    margin: 10px 30px 0px 0px;
+    align-items: center;
 }
 
 .check-mark {
@@ -107,16 +238,21 @@ header a {
     color: #222222;
     height: auto;
     background-color: #f4f4f4;
-    padding: 20px 30px 0px 30px;
+    padding: 30px 30px 0px 30px;
     font-size: 20px;
     text-align: center;
+}
+
+#how h2 {
+    font-size: 30px;
+    margin: 20px;
 }
 
 #steps {
     display: flex;
     gap: 10px;
     height: 400px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px 30px 20px;
     color: #f4f4f4;
 }
 
@@ -132,6 +268,12 @@ header a {
 
 #steps div p {
     margin: 0px 0px 15px 0px;
+}
+
+#steps div h3 {
+    font-size: 18px;
+    margin: 20px 0 20px 0px;
+    font-weight: bold;
 }
 
 .service-img {
