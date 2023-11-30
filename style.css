@@ -102,7 +102,7 @@ section {
 }
 
 body {
-    line-height: 1;
+    line-height: 1.2;
 }
 
 ol,
@@ -128,23 +128,28 @@ table {
     border-spacing: 0;
 }
 
-body {
-    font-family: 'aktiv-grotesk-ex', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+@font-face {
+    font-family: dm-sans;
+    src: url(./media/dm_sans/DMSans-VariableFont_opsz\,wght.ttf);
 }
 
-.first-section {
+body {
+    font-family: dm-sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+#first-section {
     background-repeat: no-repeat;
     background-image: url(./media/rainyla.jpg);
     background-size: cover;
     background-position: top;
-    height: 500px;
+    height: 550px;
 }
 
 header {
-    color: #f4f4f4;
+    color: #f2f2f2;
     display: flex;
     gap: 30px;
     height: auto;
@@ -167,6 +172,7 @@ header div h1 {
     margin: 0px 0px 5px 0px;
     text-align: center;
     margin-left: -30px;
+    font-style: italic;
 }
 
 header div p {
@@ -190,14 +196,14 @@ header a {
 }
 
 #service {
-    color: #f4f4f4;
+    color: #f2f2f2;
     text-align: center;
     font-size: 16px;
-    margin: 100px auto 0 auto;
-    width: 315px;
+    margin: 120px auto 0 auto;
+    width: 335px;
     background-color: rgba(20, 20, 20, 0.8);
     padding: 15px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .service-list {
@@ -213,85 +219,87 @@ header a {
 }
 
 #call-now {
-    color: #fff;
+    color: #f2f2f2;
     background-color: #222222;
     gap: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    height: 70px;
 }
 
 #call-now h3 {
     margin: 0px 0px 0px auto;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #call-now a {
     margin: 0 auto 0 0;
 }
 
-#call-now p {
-    font-size: 12px;
-}
-
 #how {
     color: #222222;
     height: auto;
-    background-color: #f4f4f4;
-    padding: 30px 30px 0px 30px;
+    background-color: #f2f2f2;
+    padding: 50px 30px 50px 30px;
     font-size: 20px;
     text-align: center;
 }
 
 #how h2 {
     font-size: 30px;
-    margin: 20px;
+    margin: 40px;
+    font-weight: bold;
 }
 
 #steps {
     display: flex;
-    gap: 10px;
-    height: 400px;
-    padding: 0px 20px 30px 20px;
-    color: #f4f4f4;
+    gap: 15px;
+    height: auto;
+    justify-content: center;
+    color: #f2f2f2;
 }
 
 #steps div {
     background-color: #222222;
     width: 300px;
     height: auto;
-    margin: 0px auto auto auto;
-    border-radius: 30px;
-    padding: 4px 10px 6px 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px;
+    padding: 4px 10px 10px 10px;
     text-align: center;
-}
-
-#steps div p {
-    margin: 0px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 #steps div h3 {
-    font-size: 18px;
-    margin: 20px 0 20px 0px;
+    font-size: 22px;
+    margin: 20px 0 15px 0px;
     font-weight: bold;
+}
+
+#steps div p {
+    margin: 0px 0px 20px 0px;
+    font-size: 16px;
 }
 
 .service-img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 5px;
+    margin-top: auto;
 }
 
-#footer {
+footer {
     background-color: #222222;
-    color: #f4f4f4;
-    padding: 20px 0px 10px 0px;
+    color: #f2f2f2;
+    padding: 30px 0px 10px 0px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-
+    gap: 25px;
 }
 
-#footer>* {
+footer>* {
     margin: auto;
     text-align: center;
 }
