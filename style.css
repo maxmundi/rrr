@@ -258,11 +258,12 @@ header a {
     gap: 15px;
     height: auto;
     justify-content: center;
-    color: #f2f2f2;
+    color: #222222;
 }
 
 #steps div {
-    background-color: #222222;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 8px rgb(178, 178, 178);
     width: 300px;
     height: auto;
     margin: 0px 0px 0px 0px;
@@ -337,6 +338,10 @@ footer>* {
 
     header a {
         margin-right: 0px;
+    }
+
+    #service {
+        margin: 80px auto 0 auto;
     }
 
     #call-now {
