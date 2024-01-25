@@ -321,6 +321,7 @@ nav ol a:hover {
 
 #contact-body p {
     font-size: 20px;
+    text-decoration: none;
 }
 
 #aboutus-body {
@@ -336,6 +337,32 @@ nav ol a:hover {
 
 #aboutus-body p {
     margin-top: 15px;
+}
+
+#reviewus-body {
+    background-color: #222222;
+    padding: 100px 0px 100px 0px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+#reviewus-body h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 80px;
+}
+
+#reviewus-body #review-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0px 15% 0px 15%;
+}
+
+#review-links img {
+    width: 100px;
 }
 
 #steps {
@@ -383,6 +410,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    text-decoration: none;
 }
 
 footer>* {
@@ -421,7 +449,7 @@ footer>* {
     }
 
     nav ol {
-        width: 420px;
+        width: 400px;
         display: flex;
         gap: 10px;
         flex-wrap: wrap;
