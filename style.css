@@ -155,7 +155,7 @@ header {
     height: auto;
     align-items: center;
     background: rgba(0, 0, 0, 0.4);
-    padding: 10px 0px 5px 0px;
+    padding: 20px 0px 15px 0px;
 }
 
 header img {
@@ -166,6 +166,10 @@ header img {
 header div {
     margin: auto;
     text-align: center;
+}
+
+.scheduling header div {
+    padding-right: 180px;
 }
 
 header div h1 {
@@ -193,6 +197,55 @@ header a {
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #c38704;
+}
+
+nav {
+    height: auto;
+    background: #f2f2f2;
+    padding: 10px 0px 10px 0px;
+}
+
+nav ol {
+    width: 575px;
+    display: flex;
+    gap: 25px;
+    margin: auto;
+}
+
+nav ol a {
+    color: #202020;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin: auto;
+}
+
+nav ol a:hover {
+    color: #dc9600;
+}
+
+#subpage #first-section {
+    height: 300px;
+}
+
+#page-title {
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 80px 0px 0px 10px;
+}
+
+.calendly-inline-widget {
+    background-color: #202020;
+}
+
+.scheduling .cta-button {
+    display: none;
 }
 
 #service {
@@ -242,7 +295,7 @@ header a {
     color: #222222;
     height: auto;
     background-color: #f2f2f2;
-    padding: 50px 30px 50px 30px;
+    padding: 30px 30px 50px 30px;
     font-size: 20px;
     text-align: center;
 }
@@ -251,6 +304,38 @@ header a {
     font-size: 30px;
     margin: 40px;
     font-weight: bold;
+}
+
+#contact-body {
+    background-color: #222222;
+    padding: 100px 0px 100px 0px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+#contact-body h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 80px;
+}
+
+#contact-body p {
+    font-size: 20px;
+}
+
+#aboutus-body {
+    background-color: #222222;
+    padding: 100px 50px 100px 50px;
+    color: #f2f2f2;
+}
+
+#aboutus-body h2 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#aboutus-body p {
+    margin-top: 15px;
 }
 
 #steps {
@@ -305,9 +390,14 @@ footer>* {
     text-align: center;
 }
 
+
 @media only screen and (max-width: 680px) {
     #first-section {
         height: 550px;
+    }
+
+    #subpage #first-section {
+        height: auto;
     }
 
     header {
@@ -318,6 +408,32 @@ footer>* {
 
     header img {
         display: none;
+    }
+
+    .scheduling header div {
+        padding-right: 0px;
+    }
+
+    nav {
+        height: auto;
+        background: #f2f2f2;
+        padding: 10px 0px 10px 0px;
+    }
+
+    nav ol {
+        width: 420px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    nav ol a {
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        margin: auto;
     }
 
     header div {
@@ -338,6 +454,10 @@ footer>* {
 
     header a {
         margin-right: 0px;
+    }
+
+    #subpage #page-title {
+        padding-bottom: 10px;
     }
 
     #service {
