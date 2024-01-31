@@ -452,7 +452,6 @@ footer>* {
         width: auto;
         display: flex;
         gap: 10px;
-        flex-wrap: wrap;
         margin: auto;
     }
 
