@@ -175,14 +175,14 @@ header div {
 header div h1 {
     margin: 0px 0px 5px 0px;
     text-align: center;
-    margin-left: -30px;
+    margin-left: -65px;
     font-style: italic;
 }
 
 header div p {
     margin: 8px 0px 0px 0px;
     text-align: center;
-    margin-left: -30px;
+    margin-left: -65px;
 }
 
 header a {
@@ -445,11 +445,11 @@ footer>* {
     nav {
         height: auto;
         background: #f2f2f2;
-        padding: 10px 0px 10px 0px;
+        padding: 10px 10px 10px 10px;
     }
 
     nav ol {
-        width: 400px;
+        width: auto;
         display: flex;
         gap: 10px;
         flex-wrap: wrap;
@@ -460,7 +460,7 @@ footer>* {
         text-align: center;
         text-decoration: none;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 3vw;
         margin: auto;
     }
 
@@ -516,5 +516,17 @@ footer>* {
         height: auto;
         justify-content: center;
         align-items: center;
+    }
+
+    #aboutus-body h2 {
+        font-size: 6vw;
+    }
+
+    #contact-body h2 {
+        font-size: 6vw;
+    }
+
+    #reviewus-body h2 {
+        font-size: 6vw;
     }
 }
