@@ -443,24 +443,16 @@ footer>* {
     }
 
     nav {
-        height: auto;
-        background: #f2f2f2;
         padding: 10px 10px 10px 10px;
     }
 
     nav ol {
         width: auto;
-        display: flex;
         gap: 10px;
-        margin: auto;
     }
 
     nav ol a {
-        text-align: center;
-        text-decoration: none;
-        font-weight: bold;
         font-size: 3vw;
-        margin: auto;
     }
 
     header div {
