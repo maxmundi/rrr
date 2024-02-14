@@ -367,7 +367,8 @@ nav ol a:hover {
 
 #steps {
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    margin-top: 80px;
     height: auto;
     justify-content: center;
     color: #222222;
@@ -375,32 +376,82 @@ nav ol a:hover {
 
 #steps div {
     background-color: #f2f2f2;
-    box-shadow: 0px 0px 8px rgb(178, 178, 178);
-    width: 300px;
+    box-shadow: 0px 0px 40px rgb(199, 199, 199);
+    width: 350px;
     height: auto;
-    margin: 0px 0px 0px 0px;
-    border-radius: 10px;
-    padding: 4px 10px 10px 10px;
     text-align: center;
     display: flex;
+    gap: auto;
     flex-direction: column;
 }
 
 #steps div h3 {
-    font-size: 22px;
-    margin: 20px 0 15px 0px;
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+#steps div h2 {
+    font-size: 26px;
+    margin: 5px 0 15px 0px;
     font-weight: bold;
 }
 
 #steps div p {
-    margin: 0px 0px 20px 0px;
+    margin: auto 10px auto 10px;
     font-size: 16px;
 }
 
 .service-img {
     width: 100%;
-    border-radius: 5px;
-    margin-top: auto;
+    border-radius: 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+#reasons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 20px 80px 20px;
+    gap: 20px;
+    height: auto;
+    justify-content: center;
+    color: #222222;
+}
+
+#reasons div {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 60px rgb(199, 199, 199);
+    width: 300px;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+    padding: 4px 10px 10px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: auto;
+}
+
+#reasons img {
+    width: 100px;
+    margin: 30px auto 0px auto
+}
+
+#reasons div h3 {
+    font-size: 22px;
+    margin: 10px 0 15px 0px;
+    font-weight: bold;
+}
+
+hr {
+    margin: 0px 120px 15px 120px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dc9600;
+}
+
+#reasons div p {
+    margin: 0px 15px 10px 15px;
+    font-size: 16px;
 }
 
 footer {
