@@ -25,5 +25,5 @@ window.onload = function () {
                 break;
             }
         }
-    }, 6000);
+    }, 10000);
 };
