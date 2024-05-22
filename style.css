@@ -471,9 +471,9 @@ footer>* {
 
 .carousel {
     position: relative;
-    height: 140px;
+    height: 160px;
     overflow: hidden;
-    padding-top: 150px;
+    padding-top: 200px;
     margin-left: 10%;
     margin-right: 10%;
 }
