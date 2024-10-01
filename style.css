@@ -491,10 +491,10 @@ footer>* {
     right: 0;
     bottom: 0;
     top: 0;
-    transition: all .75s ease-out;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .75s ease-out;
 }
 
 @media only screen and (max-width: 680px) {
