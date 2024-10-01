@@ -473,8 +473,8 @@ footer>* {
     position: relative;
     height: 400px;
     overflow: hidden;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .carousel-item {
@@ -491,9 +491,11 @@ footer>* {
     right: 0;
     bottom: 0;
     top: 0;
-    transition: all 1s ease-out;
+    transition: all .75s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 @media only screen and (max-width: 680px) {
     #first-section {
